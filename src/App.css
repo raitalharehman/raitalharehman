@@ -137,6 +137,13 @@ li:hover {
   color: white;
   display: inline-block;
   margin: 20px 10px 0px 0px;
+  border: none;
+  outline: none;
+}
+.loader {
+  position: absolute;
+  top: 45%;
+  left: 45%;
 }
 .github {
   background: #444444;

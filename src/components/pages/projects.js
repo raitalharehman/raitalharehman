@@ -18,7 +18,7 @@ class Projects extends Component {
             <NavBar page="projects"/>
             <div className="projects-container">
                 <h2>Projects</h2>
-                {/* <div className="project">
+                <div className="project">
                     <picture className="project-image">
                         <source srcSet="img/webp/new-zealand-police-logo.webp" type="image/webp" />
                         <source srcSet="img/jpg/new-zealand-police-logo.jpg" type="image/jpeg" /> 
@@ -38,6 +38,28 @@ class Projects extends Component {
                         <div className="tag tag-mysql">MySQL</div>
                     </div>
                 </div>
+                <h2>Contributions</h2>
+                <div className="project">
+                    <picture className="project-image">
+                        <source srcSet="img/webp/new-zealand-police-logo.webp" type="image/webp" />
+                        <source srcSet="img/jpg/new-zealand-police-logo.jpg" type="image/jpeg" /> 
+                        <img src="img/jpg/new-zealand-police-logo.jpg" alt="New Zealand Police Logo" />
+                    </picture>
+                    <div className="project-text">
+                        <h3>Waikato Police Notification System</h3>
+                        <p>A group of students from Waikato University were asked to develop a notification system between cameras and the Waikato Police.</p>
+                        <p>My role in this project was mainly creating the UI for the police to interact with the various program settings and database information.</p>
+                        <p>Please contact me for references for this work, as it is closed source.</p>
+                    </div>
+                    <div className="project-tags">
+                        <div className="tag tag-html">HTML5</div>
+                        <div className="tag tag-css">CSS</div>
+                        <div className="tag tag-js">JS</div>
+                        <div className="tag tag-nodejs">Node JS</div>
+                        <div className="tag tag-mysql">MySQL</div>
+                    </div>
+                </div>
+                {/* 
                 <div className="project">
                     <picture className="project-image">
                         <source srcSet="img/webp/iourpg-website.webp" type="image/webp" />
