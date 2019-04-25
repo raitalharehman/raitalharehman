@@ -41,7 +41,7 @@ class NavBar extends Component {
         <div className="nav">
             <ul>
                 <li className={this.state.homeLink}>
-                    <Link to="/raitalharehman">
+                    <Link to="/raitalharehman/">
                         <span className="icon is-small"><i className="fa fa-home"></i></span>
                         <span className="nav-text">Home</span>
                     </Link>

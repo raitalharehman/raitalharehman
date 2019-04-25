@@ -52,7 +52,7 @@ class Home extends Component {
             <div className="home-bottom">
                 <div className="home-bottom-text">
                     <p>I'm Talha. A software developer intent on developing the <Link to="/projects">sweetest projects</Link> I can. 
-                    Currently working at <a href="https://www.alchemative.com/">Alchemative</a> as a Web App Developer.</p>
+                    Currently working at <a href="https://www.alchemative.com/" target="_blank" rel="noreferrer noopener">Alchemative</a> as a Web App Developer.</p>
                     <br />
                     <p>When I'm not programming you can find me in the gym, hanging out with friends or watching the videos on Youtube.
                     If you are interested in getting in touch with me, feel free to <Link to="/contact">contact me</Link>.</p>
