@@ -20,43 +20,39 @@ class Projects extends Component {
                 <h2>Projects</h2>
                 <div className="project">
                     <picture className="project-image">
-                        <source srcSet="img/webp/new-zealand-police-logo.webp" type="image/webp" />
-                        <source srcSet="img/jpg/new-zealand-police-logo.jpg" type="image/jpeg" /> 
-                        <img src="img/jpg/new-zealand-police-logo.jpg" alt="New Zealand Police Logo" />
+                        <source srcSet="img/webp/pakixah.webp" type="image/webp" />
+                        <source srcSet="img/jpg/pakixah.jpg" type="image/jpeg" /> 
+                        <img src="img/jpg/pakixah.jpg" alt="New Zealand Police Logo" />
                     </picture>
                     <div className="project-text">
-                        <h3>Waikato Police Notification System</h3>
-                        <p>A group of students from Waikato University were asked to develop a notification system between cameras and the Waikato Police.</p>
-                        <p>My role in this project was mainly creating the UI for the police to interact with the various program settings and database information.</p>
-                        <p>Please contact me for references for this work, as it is closed source.</p>
+                        <h3>Pakixah <a href="https://pakixah.com/" target="_blank" rel="noreferrer noopener"><i className="fas fa-link"></i></a></h3>
+                        <p>Its a Portal base on News, Blog, Forum, Social wall, Heros, Videos, Petitions & Polls</p>
                     </div>
                     <div className="project-tags">
-                        <div className="tag tag-html">HTML5</div>
-                        <div className="tag tag-css">CSS</div>
+                        <div className="tag tag-css">MaterializeCSS</div>
                         <div className="tag tag-js">JS</div>
-                        <div className="tag tag-nodejs">Node JS</div>
                         <div className="tag tag-mysql">MySQL</div>
+                        <div className="tag tag-html">Laravel</div>
                     </div>
                 </div>
                 <h2>Contributions</h2>
                 <div className="project">
                     <picture className="project-image">
-                        <source srcSet="img/webp/new-zealand-police-logo.webp" type="image/webp" />
-                        <source srcSet="img/jpg/new-zealand-police-logo.jpg" type="image/jpeg" /> 
-                        <img src="img/jpg/new-zealand-police-logo.jpg" alt="New Zealand Police Logo" />
+                        <source srcSet="img/webp/saloer.webp" type="image/webp" />
+                        <source srcSet="img/jpg/saleor.jpg" type="image/jpeg" /> 
+                        <img src="img/jpg/saloer.jpg" alt="Saleor Store front" />
                     </picture>
                     <div className="project-text">
-                        <h3>Waikato Police Notification System</h3>
-                        <p>A group of students from Waikato University were asked to develop a notification system between cameras and the Waikato Police.</p>
-                        <p>My role in this project was mainly creating the UI for the police to interact with the various program settings and database information.</p>
-                        <p>Please contact me for references for this work, as it is closed source.</p>
+                        <h3>Saleor Store front <a href="https://pwa.getsaleor.com/" target="_blank" rel="noreferrer noopener"><i className="fas fa-link"></i></a> <a href="https://github.com/mirumee/saleor-storefront" target="_blank" rel="noreferrer noopener"><span className="fab fa-github"></span></a></h3>
+                        <p>A GraphQL-powered, React, PWA, single-page application storefront for Saleor.</p>
+                        
                     </div>
                     <div className="project-tags">
-                        <div className="tag tag-html">HTML5</div>
-                        <div className="tag tag-css">CSS</div>
-                        <div className="tag tag-js">JS</div>
+                        <div className="tag tag-pwa">PWA</div>
+                        <div className="tag tag-react">React</div>
+                        <div className="tag tag-js">Typescript</div>
                         <div className="tag tag-nodejs">Node JS</div>
-                        <div className="tag tag-mysql">MySQL</div>
+                        <div className="tag tag-mysql">GraphQL</div>
                     </div>
                 </div>
                 {/* 
