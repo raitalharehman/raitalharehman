@@ -2,23 +2,26 @@
   "name": "raitalharehman",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://raitalharehman.github.io/",
+  "homepage": "https://raitalharehman.github.io/raitalharehman",
   "dependencies": {
     "emailjs-com": "^2.3.2",
+    "extend": ">=3.0.2",
+    "gh-pages": "^2.0.1",
     "lodash": ">=4.17.11",
     "merge": ">=1.2.1",
-    "sweetalert2": "^8.8.7",
     "react": "^16.6.3",
     "react-dev-utils": ">=4.2.2",
     "react-dom": "^16.6.3",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.0.17",
+    "sweetalert2": "^8.8.7",
     "url-parse": ">=1.4.3",
-    "webpack-dev-server": ">=3.1.11",
-    "extend": ">=3.0.2"
+    "webpack-dev-server": ">=3.1.11"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
