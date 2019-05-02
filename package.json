@@ -5,6 +5,8 @@
   "homepage": "https://raitalharehman.github.io/raitalharehman",
   "dependencies": {
     "emailjs-com": "^2.3.2",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
     "extend": ">=3.0.2",
     "gh-pages": "^2.0.1",
     "lodash": ">=4.17.11",
@@ -15,6 +17,7 @@
     "react-loader-spinner": "^2.3.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.0.17",
+    "react-test-renderer": "^16.8.6",
     "sweetalert2": "^8.8.7",
     "url-parse": ">=1.4.3",
     "webpack-dev-server": ">=3.1.11"
