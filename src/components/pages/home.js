@@ -10,9 +10,16 @@ import github from "../../images/github.svg"
 import stackoverflow from "../../images/overflow.svg"
 import twitter from "../../images/twitter.svg"
 import BlankLink from '../blankLink';
-import LiItem from '../liItem';
 
-
+function LiItem(props) {
+    const { icon, text } = props;
+    return (
+        <li>
+            <div className="icon is-small"><i className={"fa fa-" + icon}></i></div>
+            <span>{text}</span>
+        </li>
+    );
+}
 class Home extends Component {
     componentWillReceiveProps() {
         document.title = "Rai Talha Rehman khan";
@@ -25,11 +32,7 @@ class Home extends Component {
     render() {
         const homeTop = <div className="home-top-container">
             <div className="home-top-left">
-                <picture className="home-top-left-image">
-                    <source srcSet="img/webp/profile.webp" type="image/webp" />
-                    <source srcSet="img/png/profile.png" type="image/jpeg" />
-                    <img src="img/png/profile.png" alt="Talha Rehman" />
-                </picture>
+                <img src="https://i.imgur.com/fvFXUMeh.png" alt="Rai Talha Rehman" />
             </div>
             <div className="home-top-right">
                 <h2>Talha Rehman</h2>
@@ -60,7 +63,7 @@ class Home extends Component {
                 <div className="home-bottom-buttons">
                     <a href="https://firebasestorage.googleapis.com/v0/b/portfolio-raitalharehman.appspot.com/o/Talha%20Rehman.pdf?alt=media&token=fb23792e-115f-480a-bde2-fae2ecf71fd4" target="_blank" rel="noreferrer noopener">
                         <div className="button CV">
-                            <span class="icon is-small"><i class="fa fa-arrow-circle-down"></i></span>
+                            <span className="icon is-small"><i className="fa fa-arrow-circle-down"></i></span>
                             Download C.V
                     </div>
                     </a>

@@ -5,6 +5,7 @@ import Loader from 'react-loader-spinner';
 
 //components  
 import NavBar from '../nav-bar/nav-bar';
+
 function InputTag(props) {
     const { type, name, value, onChange } = props;
     return (
