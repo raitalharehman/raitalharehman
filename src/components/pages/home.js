@@ -10,6 +10,7 @@ import github from "../../images/github.svg"
 import stackoverflow from "../../images/overflow.svg"
 import twitter from "../../images/twitter.svg"
 import BlankLink from '../blankLink';
+import LiItem from '../liItem';
 
 
 class Home extends Component {
@@ -33,17 +34,9 @@ class Home extends Component {
             <div className="home-top-right">
                 <h2>Talha Rehman</h2>
                 <ul>
-                    <li>
-                        <div className="icon is-small"><i className="fa fa-user"></i></div>
-                        <span>Software Engineer</span>
-                    </li>
-                    <li>
-                        <div className="icon is-small"><i className="fa fa-location-arrow"></i></div>
-                        <span>Lahore, Pakistan</span></li>
-                    <li>
-                        <div className="icon is-small"><i className="fa fa-graduation-cap"></i></div>
-                        <span>BScs</span>
-                    </li>
+                    <LiItem icon="user" text="Software Engineer" />
+                    <LiItem icon="location-arrow" text="Lahore, Pakistan" />
+                    <LiItem icon="graduation-cap" text="BScs" />
                     <li className="profiles">
                         <BlankLink url="https://github.com/raitalharehman" title="github" src={github} />
                         <BlankLink url="https://twitter.com/raitalharehman" title="twitter" src={twitter} />
