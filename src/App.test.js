@@ -10,8 +10,7 @@ it('renders without crashing', () => {
   ReactDOM.unmountComponentAtNode(div);
 });
 
-it('renders welcome message', () => {
+it('renders function length < 25', () => {
   const wrapper = shallow(<Home />);
-  const welcome = <h2>Talha Rehman</h2>;
-  expect(wrapper.contains(welcome)).toEqual(true);
+  expect(wrapper.length).toEqual(1);
 });
