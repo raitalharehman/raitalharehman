@@ -85,7 +85,7 @@ class Contact extends Component {
                     {loading(this.state)}
                     <form className="contact-form" onSubmit={this.sendMessage}>
                         <InputTag label="Name" type="text" value={this.state.nameValue} onChange={this.handleChange.bind(this, 'nameValue')} />
-                        <InputTag label="Email" type="email" value={this.state.emailValue} onChange={this.handleChange.bind(this, 'emailValue')} />
+                        <InputTag onChange={this.handleChange.bind(this, 'emailValue')} label="Email" value={this.state.emailValue} type="email" />
                         <label htmlFor="message">Message</label>
                         <textarea required name="message" rows="4" value={this.state.messageValue} onChange={this.handleChange.bind(this, 'messageValue')}></textarea>
                         <button type="submit" className="button send">
