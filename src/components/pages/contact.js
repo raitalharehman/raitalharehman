@@ -64,22 +64,22 @@ class Contact extends Component {
     }
 
     render() {
+        const loading = this.state.loader ?
+            <div className="loader">
+                <Loader
+                    type={this.state.loaderStyle[Math.floor(Math.random() * this.state.loaderStyle.length)]}
+                    color="#00BFFF"
+                    height="100"
+                    width="100"
+                />
+            </div>
+            : <div></div>
         return (
             <div className="contact-page">
                 <NavBar page="contact" />
                 <div className="contact-container">
                     <h2>Contact</h2>
-                    {this.state.loader ?
-                        <div className="loader">
-                            <Loader
-                                type={this.state.loaderStyle[Math.floor(Math.random() * this.state.loaderStyle.length)]}
-                                color="#00BFFF"
-                                height="100"
-                                width="100"
-                            />
-                        </div>
-                        : <div></div>
-                    }
+                    {loading}
                     <form className="contact-form" onSubmit={this.sendMessage}>
                         <InputTag label="Name" type="text" value={this.state.nameValue} onChange={this.handleChange.bind(this, 'nameValue')} />
                         <InputTag label="Email" type="email" value={this.state.emailValue} onChange={this.handleChange.bind(this, 'emailValue')} />
