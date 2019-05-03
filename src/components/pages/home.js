@@ -9,6 +9,7 @@ import {
 import github from "../../images/github.svg"
 import stackoverflow from "../../images/overflow.svg"
 import twitter from "../../images/twitter.svg"
+import BlankLink from '../blankLink';
 
 
 class Home extends Component {
@@ -47,15 +48,9 @@ class Home extends Component {
                                 <span>BScs</span>
                             </li>
                             <li className="profiles">
-                                <a href="https://github.com/raitalharehman" target="_blank" rel="noreferrer noopener" title="github">
-                                    <img src={github} alt="github" />
-                                </a>
-                                <a href="https://twitter.com/raitalharehman" target="_blank" rel="noreferrer noopener" title="twitter">
-                                    <img src={twitter} alt="twitter" />
-                                </a>
-                                <a href="https://stackoverflow.com/users/6727487" target="_blank" rel="noreferrer noopener" title="stack overflow">
-                                    <img src={stackoverflow} alt="stackoverflow" />
-                                </a>
+                                <BlankLink url="https://github.com/raitalharehman" title="github" src={github} />
+                                <BlankLink url="https://twitter.com/raitalharehman" title="twitter" src={twitter} />
+                                <BlankLink url="https://stackoverflow.com/users/6727487" title="stack overflow" src={stackoverflow} />
                             </li>
                         </ul>
                     </div>
@@ -63,8 +58,8 @@ class Home extends Component {
                 <div className="home-bottom">
                     <div className="home-bottom-text">
                         <p>I'm Talha. A software developer intent on developing the <Link to="/projects">sweetest projects</Link> I can.
-                    Currently working at <a href="https://www.alchemative.com/" target="_blank" rel="noreferrer noopener">Alchemative </a>
-                            as a Web App Developer & Working with <a href="https://team.sobotics.org/" target="_blank" rel="noreferrer noopener">SOBotics </a>
+                    Currently working at <BlankLink url="https://www.alchemative.com/" title="Alchemative" text="Alchemative " />
+                            as a Web App Developer & Working with <BlankLink url="https://team.sobotics.org/" title="SOBotics" text="SOBotics " />
                             to help moderators on StackOverFlow.
                         </p>
                         <br />
