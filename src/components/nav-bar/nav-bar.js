@@ -16,22 +16,22 @@ class NavBar extends Component {
     constructor(props) {
         super(props);
         this.state = { homeLink: '', eduLink: '', projectLink: '', contactLink: '' };
-        this.updateActive = function (aPage) {
-            if (aPage === "home") {
-                this.setState({ homeLink: 'is-active', eduLink: '', projectLink: '', contactLink: '' });
-            }
-            else if (aPage === "education") {
-                this.setState({ homeLink: '', eduLink: 'is-active', projectLink: '', contactLink: '' });
-            }
-            else if (aPage === "projects") {
-                this.setState({ homeLink: '', eduLink: '', projectLink: 'is-active', contactLink: '' });
-            }
-            else if (aPage === "contact") {
-                this.setState({ homeLink: '', eduLink: '', projectLink: '', contactLink: 'is-active' });
-            }
-            else {
-                this.setState({ homeLink: '', eduLink: '', projectLink: '', contactLink: '' });
-            }
+    }
+    updateActive = function (aPage) {
+        if (aPage === "home") {
+            this.setState({ homeLink: 'is-active', eduLink: '', projectLink: '', contactLink: '' });
+        }
+        else if (aPage === "education") {
+            this.setState({ homeLink: '', eduLink: 'is-active', projectLink: '', contactLink: '' });
+        }
+        else if (aPage === "projects") {
+            this.setState({ homeLink: '', eduLink: '', projectLink: 'is-active', contactLink: '' });
+        }
+        else if (aPage === "contact") {
+            this.setState({ homeLink: '', eduLink: '', projectLink: '', contactLink: 'is-active' });
+        }
+        else {
+            this.setState({ homeLink: '', eduLink: '', projectLink: '', contactLink: '' });
         }
     }
 

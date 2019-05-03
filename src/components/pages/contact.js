@@ -7,9 +7,12 @@ import Loader from 'react-loader-spinner';
 import NavBar from '../nav-bar/nav-bar';
 
 function InputTag(props) {
-    const { type, name, value, onChange } = props;
+    const { type, value, onChange, label } = props;
     return (
-        <input required type={type} name={name} value={value} onChange={onChange} />
+        <div>
+            <label htmlFor={type}>{label}</label>
+            <input required type={type} name={type} value={value} onChange={onChange} />
+        </div>
     );
 }
 
@@ -78,10 +81,8 @@ class Contact extends Component {
                         : <div></div>
                     }
                     <form className="contact-form" onSubmit={this.sendMessage}>
-                        <label htmlFor="name">Name</label>
-                        <InputTag type="text" name="name" value={this.state.nameValue} onChange={this.handleChange.bind(this, 'nameValue')} />
-                        <label htmlFor="email">Email</label>
-                        <InputTag type="email" name="email" value={this.state.emailValue} onChange={this.handleChange.bind(this, 'emailValue')} />
+                        <InputTag label="Name" type="text" value={this.state.nameValue} onChange={this.handleChange.bind(this, 'nameValue')} />
+                        <InputTag label="Email" type="email" value={this.state.emailValue} onChange={this.handleChange.bind(this, 'emailValue')} />
                         <label htmlFor="message">Message</label>
                         <textarea required name="message" rows="4" value={this.state.messageValue} onChange={this.handleChange.bind(this, 'messageValue')}></textarea>
                         <button type="submit" className="button send">
