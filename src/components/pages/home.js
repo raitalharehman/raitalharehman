@@ -23,7 +23,7 @@ function LiItem(props) {
 function HomeTop() {
     return <div className="home-top-container">
         <div className="home-top-left">
-            <img src="https://i.imgur.com/fvFXUMeh.png" alt="Rai Talha Rehman" />
+            <img src="https://i.imgur.com/ieOKBSmh.png" alt="Rai Talha Rehman" />
         </div>
         <div className="home-top-right">
             <h2>Talha Rehman</h2>
