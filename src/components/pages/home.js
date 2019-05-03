@@ -46,6 +46,17 @@ class Home extends Component {
                                 <div className="icon is-small"><i className="fa fa-graduation-cap"></i></div>
                                 <span>BScs</span>
                             </li>
+                            <li className="profiles">
+                                <a href="https://github.com/raitalharehman" target="_blank" rel="noreferrer noopener" title="github">
+                                    <img src={github} alt="github" />
+                                </a>
+                                <a href="https://twitter.com/raitalharehman" target="_blank" rel="noreferrer noopener" title="twitter">
+                                    <img src={twitter} alt="twitter" />
+                                </a>
+                                <a href="https://stackoverflow.com/users/6727487" target="_blank" rel="noreferrer noopener" title="stack overflow">
+                                    <img src={stackoverflow} alt="stackoverflow" />
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -54,20 +65,18 @@ class Home extends Component {
                         <p>I'm Talha. A software developer intent on developing the <Link to="/projects">sweetest projects</Link> I can.
                     Currently working at <a href="https://www.alchemative.com/" target="_blank" rel="noreferrer noopener">Alchemative </a>
                             as a Web App Developer & Working with <a href="https://team.sobotics.org/" target="_blank" rel="noreferrer noopener">SOBotics </a>
-                            to help moderators on StackOverFlow
+                            to help moderators on StackOverFlow.
                         </p>
                         <br />
                         <p>When I'm not programming you can find me in the gym, hanging out with friends or watching the videos on Youtube.
-                    If you are interested in getting in touch with me, feel free to <Link to="/contact">contact me</Link>.</p>
+                    If you are interested in getting in touch with me, feel free to <Link to="/contact">contact me </Link>
+                        </p>
                         <div className="home-bottom-buttons">
-                            <a href="https://github.com/raitalharehman" target="_blank" rel="noreferrer noopener">
-                                <img src={github} alt="github" />
-                            </a>
-                            <a href="https://twitter.com/raitalharehman" target="_blank" rel="noreferrer noopener">
-                                <img src={twitter} alt="twitter" />
-                            </a>
-                            <a href="https://stackoverflow.com/users/6727487" target="_blank" rel="noreferrer noopener">
-                                <img src={stackoverflow} alt="stackoverflow" />
+                            <a href="https://firebasestorage.googleapis.com/v0/b/portfolio-raitalharehman.appspot.com/o/Talha%20Rehman.pdf?alt=media&token=fb23792e-115f-480a-bde2-fae2ecf71fd4" target="_blank" rel="noreferrer noopener">
+                                <div className="button CV">
+                                    <span class="icon is-small"><i class="fa fa-arrow-circle-down"></i></span>
+                                    Download C.V
+                                </div>
                             </a>
                         </div>
                     </div>

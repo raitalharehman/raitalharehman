@@ -130,7 +130,13 @@ li:hover {
   height: 25px;
   margin: 0 5px;
 }
-
+.profiles {
+  margin-top: 10px;
+}  
+.profiles a {
+  display: initial;
+  margin: 0 5px;
+}
 .button {
   padding: 10px 20px;
   border-radius: 5px;
