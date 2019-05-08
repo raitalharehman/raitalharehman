@@ -9,6 +9,7 @@ import {
 import github from "../../images/github.svg"
 import stackoverflow from "../../images/overflow.svg"
 import twitter from "../../images/twitter.svg"
+import linkedin from "../../images/linkedin.svg"
 import BlankLink from '../blankLink';
 
 function LiItem(props) {
@@ -35,6 +36,7 @@ function HomeTop() {
                     <BlankLink url="https://github.com/raitalharehman" title="github" src={github} />
                     <BlankLink url="https://twitter.com/raitalharehman" title="twitter" src={twitter} />
                     <BlankLink url="https://stackoverflow.com/users/6727487" title="stack overflow" src={stackoverflow} />
+                    <BlankLink url="https://www.linkedin.com/in/raitalharehman" title="Linked in" src={linkedin} />
                 </li>
             </ul>
         </div>
