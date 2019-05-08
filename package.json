@@ -27,6 +27,8 @@
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "test": "react-scripts test --env=jsdom"
+    "localtest": "react-scripts test --env=jsdom",
+    "test": "CI=true react-scripts test --env=jsdom",
+    "test:coverage": "npm test -- --coverage"
   }
 }
