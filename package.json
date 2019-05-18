@@ -27,7 +27,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "localtest": "react-scripts test --env=jsdom",
-    "test": "react-scripts test --env=jsdom",
+    "test": "CI=true react-scripts test --env=jsdom",
     "test:coverage": "npm test -- --coverage"
   },
   "browserslist": [
