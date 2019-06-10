@@ -24,6 +24,14 @@ function ProjectModel(props) {
 function Project() {
     return <div>
         <h2>Projects</h2>
+        <ProjectModel img="https://i.imgur.com/oCKyLU0h.jpg" title="Victory League" url="https://www.victoryleague.com.pk/"
+            text="Victory League is for sports enthusiasts across Pakistan. It is Pakistan’s first fantasy sports game app. Use your skill and knowledge of the sports to win big! Your passion for sports will now be amplified as you decide your own team. Take charge by creating your own team and win prizes too! Compete with family and friends to see who can win the most."
+            tags={<div className="project-tags">
+                <div className="tag tag-pwa">PWA</div>
+                <div className="tag tag-react">React</div>
+                <div className="tag tag-js">Typescript</div>
+            </div>}
+        />
         <ProjectModel img="https://i.imgur.com/vQsy7iGh.png" title="Pakixah" url="https://pakixah.com/"
             text="Its a Portal base on News, Blog, Forum, Social wall, Heros, Videos, Petitions & Polls"
             tags={<div className="project-tags">
