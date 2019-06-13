@@ -58,6 +58,14 @@ function Contribution() {
                 <div className="tag tag-mysql">GraphQL</div>
             </div>}
         />
+        <ProjectModel img="https://i.imgur.com/lWdq5E2h.png" title="Advanced Flagging" url="https://raw.githubusercontent.com/SOBotics/AdvancedFlagging/master/dist/AdvancedFlagging.user.js"
+            text="Userscript to highlight reported posts, and send feedback to Smokey, Natty, Guttenberg and GenericBot."
+            github="https://github.com/SOBotics/AdvancedFlagging"
+            tags={<div className="project-tags">
+                <div className="tag tag-js">Typescript</div>
+                <div className="tag tag-nodejs">Node JS</div>
+            </div>}
+        />
     </div>
 }
 
