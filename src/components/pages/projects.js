@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 //components  
 import NavBar from '../nav-bar/nav-bar';
+import npmImg from '../../images/npm.jpg';
 
 function ProjectModel(props) {
     const { img, title, url, text, tags, github } = props;
@@ -69,6 +70,20 @@ function Contribution() {
     </div>
 }
 
+function Repository() {
+    return <div>
+        <h2>Repositories</h2>
+        <ProjectModel img={npmImg} title="Behna" url="https://www.npmjs.com/package/behna"
+            text="This package is about some cool funtions like debounce, getSize, existInThisRadius and Ellipsis"
+            github="https://github.com/raitalharehman/behna"
+            tags={<div className="project-tags">
+                <div className="tag tag-js">Javcript</div>
+                <div className="tag tag-nodejs">Node JS</div>
+            </div>}
+        />
+    </div>
+}
+
 class Projects extends Component {
     componentWillReceiveProps() {
         document.title = "Projects - Rai Talha Rehman Khan";
@@ -85,6 +100,7 @@ class Projects extends Component {
                 <div className="projects-container">
                     <Project />
                     <Contribution />
+                    <Repository />
                 </div>
             </div>
         );
