@@ -5,7 +5,7 @@
   "homepage": "https://raitalharehman.github.io/raitalharehman",
   "dependencies": {
     "emailjs-com": "^2.3.2",
-    "enzyme": "^3.9.0",
+    "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.12.1",
     "extend": ">=3.0.2",
     "gh-pages": "^2.0.1",
