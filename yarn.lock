@@ -7205,10 +7205,10 @@ react-is@^16.8.1, react-is@^16.8.6:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
   integrity sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==
 
-react-loader-spinner@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/react-loader-spinner/-/react-loader-spinner-2.3.0.tgz#0f14da82f42cdfdf6567f8ddac3d4bd150cea231"
-  integrity sha512-Nu7RXMyAnvdGoZLH5boXaHbqLkgBEIPO1u75zOZkZNp2V+Dg8RvvlZ05SU3ajtmsFNteFe8BJbFd0samH0tXcw==
+react-loader-spinner@^3.1.8:
+  version "3.1.8"
+  resolved "https://registry.yarnpkg.com/react-loader-spinner/-/react-loader-spinner-3.1.8.tgz#4767489b446a2529b8c6ca4880577f6e0395ca12"
+  integrity sha512-mWvB3zvB8zu5aGr8xe2mvHlt10GZTyWHiNJ44MRiCSimu4m+MwJv/5w3UyG35m3bwIdNPiVZi1gC3MGy2dN9Gg==
   dependencies:
     babel-runtime "^6.26.0"
     prop-types "^15.6.2"
