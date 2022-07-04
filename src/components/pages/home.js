@@ -29,7 +29,7 @@ function HomeTop() {
         <div className="home-top-right">
             <h2>Talha Rahman</h2>
             <ul>
-                <LiItem icon="user" text="Software Engineer" />
+                <LiItem icon="user" text="Senior Software Engineer" />
                 <LiItem icon="location-arrow" text="Lahore, Pakistan" />
                 <LiItem icon="graduation-cap" text="BScs" />
                 <li className="profiles">
@@ -46,9 +46,9 @@ function HomeTop() {
 function HomeBottom() {
     return <div className="home-bottom">
         <div className="home-bottom-text">
-            <p>I'm Talha. A software developer intent on developing the <Link to="/projects">sweetest projects</Link> I can.
-Currently working at <BlankLink url="https://www.alchemative.com/" title="Alchemative" text="Alchemative " />
-                as a Web App Developer & Working with <BlankLink url="https://team.sobotics.org/" title="SOBotics" text="SOBotics " />
+            <p>Hi. I'm Talha. A software developer intent on developing the <Link to="/projects">sweetest projects</Link> I can.
+Currently working at <BlankLink url="https://ginkgoretail.com/" title="Ginkgo" text="Ginkgo " />
+                as a Senior Software Engineer & Working with <BlankLink url="https://team.sobotics.org/" title="SOBotics" text="SOBotics " />
                 to help moderators on StackOverFlow.
     </p>
             <br />
