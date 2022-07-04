@@ -44,11 +44,11 @@ class Contact extends Component {
     }
 
     componentWillReceiveProps() {
-        document.title = "Contact - Rai Talha Rehman Khan";
+        document.title = "Contact - Rai Talha Rahman Khan";
     }
 
     componentDidMount() {
-        document.title = "Contact - Rai Talha Rehman Khan";
+        document.title = "Contact - Rai Talha Rahman Khan";
     }
 
     handleChange(key, event) {

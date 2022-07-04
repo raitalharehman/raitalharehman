@@ -86,11 +86,10 @@ function Repository() {
 
 class Projects extends Component {
     componentWillReceiveProps() {
-        document.title = "Projects - Rai Talha Rehman Khan";
+        document.title = "Projects - Rai Talha Rahman Khan";
     }
 
     componentDidMount() {
-        document.title = "Projects - Rai Talha Rehman Khan";
     }
 
     render() {

@@ -6,11 +6,11 @@ import uol from '../../images/uol.svg';
 
 class Education extends Component {
     componentWillReceiveProps() {
-        document.title = "Education - Rai Talha Rehman Khan";
+        document.title = "Education - Rai Talha Rahman Khan";
     }
 
     componentDidMount() {
-        document.title = "Education - Rai Talha Rehman Khan";
+        document.title = "Education - Rai Talha Rahman Khan";
     }
 
   render() {

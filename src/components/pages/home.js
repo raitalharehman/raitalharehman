@@ -24,10 +24,10 @@ function LiItem(props) {
 function HomeTop() {
     return <div className="home-top-container">
         <div className="home-top-left">
-            <img src="https://i.imgur.com/ieOKBSmh.png" alt="Rai Talha Rehman" />
+            <img src="https://i.imgur.com/VnNqp5t.png" alt="Rai Talha Rahman" />
         </div>
         <div className="home-top-right">
-            <h2>Talha Rehman</h2>
+            <h2>Talha Rahman</h2>
             <ul>
                 <LiItem icon="user" text="Software Engineer" />
                 <LiItem icon="location-arrow" text="Lahore, Pakistan" />
@@ -68,11 +68,11 @@ If you are interested in getting in touch with me, feel free to <Link to="/conta
 }
 class Home extends Component {
     componentWillReceiveProps() {
-        document.title = "Rai Talha Rehman khan";
+        document.title = "Rai Talha Rahman khan";
     }
 
     componentDidMount() {
-        document.title = "Rai Talha Rehman khan";
+        document.title = "Rai Talha Rahman khan";
     }
 
     render() {
